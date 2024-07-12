@@ -1,0 +1,25 @@
+.navbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-nav .nav-item {
+  list-style: none;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(0, 255, 0);
+}
+
+/*# sourceMappingURL=navigation.css.map */

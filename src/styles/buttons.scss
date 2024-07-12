@@ -1,0 +1,111 @@
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  cursor: pointer;
+  &:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+}
+.btn-outline-primary {
+  color: #007bff;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  &:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: white;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+}
+.btn-dark {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  cursor: pointer;
+  &:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  cursor: pointer;
+  &:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  }
+}
+.btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  cursor: pointer;
+  &:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  }
+}
+.btn-outline-light {
+  color: #212529;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f8f9fa;
+  cursor: pointer;
+  &:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+  }
+}
+.btn-outline-dark {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #343a40;
+  cursor: pointer;
+  &:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
+}
+.btn-blue-gradient {
+  color: #fff;
+  background-image: linear-gradient(to right, #007bff 0%, #007bff 100%);
+  border-color: #007bff;
+  cursor: pointer;
+  &:hover {
+    background-image: linear-gradient(to right, #0069d9 0%, #0069d9 100%);
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+}
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  cursor: pointer;
+  &:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+  }
+}

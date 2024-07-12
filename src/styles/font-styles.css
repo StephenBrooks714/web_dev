@@ -1,0 +1,78 @@
+.h1 {
+  font-size: 3.5rem;
+}
+
+.h2 {
+  font-size: 3rem;
+}
+
+.h3 {
+  font-size: 2.5rem;
+}
+
+.h4 {
+  font-size: 2rem;
+}
+
+.h5 {
+  font-size: 1.5rem;
+}
+
+.h6 {
+  font-size: 1rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+}
+
+.text-muted {
+  font-size: 1rem;
+  color: #6c757d !important;
+}
+
+.display-1 {
+  font-size: 6rem;
+}
+@media (max-width: 576px) {
+  .display-1 {
+    font-size: 3.5rem;
+  }
+}
+
+.display-2 {
+  font-size: 5.5rem;
+}
+@media (max-width: 576px) {
+  .display-2 {
+    font-size: 3rem;
+  }
+}
+
+.display-3 {
+  font-size: 4.5rem;
+}
+@media (max-width: 576px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+}
+
+.display-4 {
+  font-size: 3.5rem;
+}
+@media (max-width: 576px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+.display-5 {
+  font-size: 2.5rem;
+}
+
+.display-6 {
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=font-styles.css.map */

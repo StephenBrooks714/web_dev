@@ -1,0 +1,38 @@
+.home-intro {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://d92mrp7hetgfk.cloudfront.net/images/sites/misc/adult-business-coffee-1181244__1_/original.jpg?1560285775")
+    no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+    @media (max-width: 862px) {
+        height: 120vh;
+        text-align: center;
+    }
+}
+.banner {
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.7), rgba(0, 0, 255, 0.7)),
+    url("https://www.snhu.edu/-/media/images/social/og/what-is-coding-bootcamp-og.ashx") no-repeat center center/cover;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-weight: 300;
+    }
+    @media (max-width: 762px) {
+        p {
+            font-size: 1rem;
+        }
+        height: 60vh;
+    }
+}

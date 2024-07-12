@@ -1,0 +1,18 @@
+.form-floating {
+  display: flex;
+  flex-direction: column;
+    .form-control {
+        height: calc(2.5rem + 2px);
+        padding: 0.7rem .75rem;
+    }
+
+    .form-select {
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+    }
+  label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+}

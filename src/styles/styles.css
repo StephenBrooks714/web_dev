@@ -1,0 +1,35 @@
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-end {
+  text-align: end;
+  margin: 0 auto;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
